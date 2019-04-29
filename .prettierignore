@@ -1,0 +1,10 @@
+.git
+.idea
+node_modules
+
+#exclude root folder files
+/*.*
+
+#no parsers
+*.ico
+

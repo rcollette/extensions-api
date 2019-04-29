@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "Sample code and documentation for the Tableau Extensions API.",
   "scripts": {
+    "build": "tsc",
     "start": "node node_modules/http-server/bin/http-server -p 8765",
-    "lint": "semistandard"
+    "lint": "semistandard",
+    "dev": "concurrently --kill-others \"tsc --watch\" \"npm:start\""
   },
   "repository": {
     "type": "git",
@@ -13,10 +15,15 @@
   "author": "tableau",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.9.0",
+    "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "semistandard": "^11.0.0"
+    "@types/jquery": "^3.3.29",
+    "concurrently": "^4.1.0",
+    "semistandard": "^11.0.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
   },
   "semistandard": {
     "env": {

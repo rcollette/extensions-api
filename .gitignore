@@ -6,3 +6,9 @@ node_modules/
 npm-debug.log
 package-lock.json
 Gemfile.lock
+tsconfig.tsbuildinfo
+.idea
+
+#Generated JS files (would not be needed if all source was .ts)
+datasources.js
+datasources.js.map

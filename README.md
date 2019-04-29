@@ -1,5 +1,24 @@
+# Tableau Extensions Api (with TypeScript Example)
+This project is a fork of the Tableau Extensions Api to demonstrate usage of Typescript with the extension API.
+
+Generated JavaScript targets ES2017 and takes advantages of features like classes, `async`/`await`, tslint's more advanced
+suggestions of when to use `let`/`const`.
+
+The Samples\DataSources project trex project has been converted to Typescript.
+
+To build
+```bash
+npm run build
+```
+
+To start in development mode where changes are recompiled on file save and the server is started.
+```bash
+npm run dev
+```
+
+When using an IDE like WebStorm, it may compile on save for you
+
 # Tableau Extensions API
-[![Tableau Supported](https://img.shields.io/badge/Support%20Level-Tableau%20Supported-53bd92.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 
 ![Image of Flex the T-Rex](./assets/flex.png)
 
