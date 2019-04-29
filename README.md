@@ -1,7 +1,7 @@
 # Tableau Extensions Api (with TypeScript Example)
 This project is a fork of the Tableau Extensions Api to demonstrate usage of Typescript with the extension API.
 
-Generated JavaScript targets ES2017 and takes advantages of features like classes, `async`/`await`, tslint's more advanced
+Generated JavaScript targets ES2017 (which works in Tableau 2019.1+) and takes advantages of features like classes, `async`/`await`, tslint's more advanced
 suggestions of when to use `let`/`const`.
 
 The Samples\DataSources project trex project has been converted to Typescript.
